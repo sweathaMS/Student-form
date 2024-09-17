@@ -1,0 +1,49 @@
+
+    .table {
+        padding: 8px;
+        border-spacing: 10px;
+        color: black;
+        background-color: rgb(0, 221, 255);
+        border-radius: 10px;
+    }
+
+    .save {
+        background-color: plum;
+        width: 100px;
+        cursor: pointer;
+
+    }
+
+    .tr {
+        border-style: none;
+
+    }
+
+    tr,
+    td {
+        padding: 10px;
+    }
+
+    select {
+        background-color: rgb(0, 221, 255);
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+
+    #table2 {
+        margin-top: 20px;
+        background-color: rgb(0, 221, 255);
+        ;
+    }
+
+    .remove {
+        background-color: plum;
+    }
+
+    input {
+        background-color: rgb(0, 221, 255);
+        border: none;
+        outline: none;
+        color: black;
+    }

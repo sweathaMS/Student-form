@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="./style.css">
+   
+</head>
+
+
+<body>
+    <h2>STUDENT FORM</h2>
+    <table border="2" class="table">
+        <tr>
+            <td style="font-weight: bold;">Name</td>
+            <td><input placeholder="your name" type="text" id="names"></td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">Age</td>
+            <td><input placeholder="your age" type="text" id="age"></td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">Gender</td>
+            <td><input type="radio">Male
+                <input type="radio" id="gender">Female
+            </td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">Course</td>
+            <td>
+                <select id="course">
+                    <option>Javascript</option>
+                    <option>Full Stack web development</option>
+                    <option>Python</option>
+                    <option>Artificial Intelligence</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">Email</td>
+            <td><input placeholder=" your Mail" id="email"></td>
+        </tr>
+
+        <tr class="tr">
+
+            <th colspan="2" class="tr"><button class="save" id="btn">Save</button></th>
+
+        </tr>
+    </table>
+    <table border="2" id="table2">
+        <tr>
+            <td style="font-weight: bold;">Name</td>
+            <td style="font-weight: bold;">Age</td>
+            <td style="font-weight: bold;">Course</td>
+            <td style="font-weight: bold;">Email</td>
+            <td style="font-weight: bold;">Action</td>
+        </tr>
+
+    </table>
+   
+
+</body>
+<script src="script.js"></script>
+
+</html>
